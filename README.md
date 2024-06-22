@@ -1,5 +1,5 @@
 # FinanceGPT
-The FinanceGPT is a chatbot application for financial analysis using real time data and OpenAI fuctions.
+The FinanceGPT is a chatbot application for financial analysis using real time data and OpenAI fuctions. This GPT adopts the use of of openai and data from aplpha vantage.
 
 ## Quick Start
  1. Create a python virtual environment.
