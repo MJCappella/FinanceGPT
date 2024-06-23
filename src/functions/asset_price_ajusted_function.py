@@ -1,8 +1,6 @@
 import pandas as pd
-
 import chainlit as cl
 from tabulate import tabulate
-
 from src.utils.alpha_vantage.base import AlphaVantageBase
 
 intervals_enum = {

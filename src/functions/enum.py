@@ -1,3 +1,5 @@
+# importing all functions from the other files
+
 from enum import Enum
 from src.functions.chart_function import ChartFunction
 from src.functions.table_qa_function import TableQAFunction

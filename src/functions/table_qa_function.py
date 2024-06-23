@@ -1,8 +1,6 @@
 import os
-
 import chainlit as cl
 from tabulate import tabulate
-
 import pandas as pd
 from pandasai import PandasAI
 from pandasai.llm.openai import OpenAI

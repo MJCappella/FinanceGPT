@@ -1,7 +1,5 @@
 import json
-
 from src.utils.alpha_vantage.base import AlphaVantageBase
-
 
 class MarketNewsSentimentFunction:
     @classmethod
@@ -19,7 +17,7 @@ class MarketNewsSentimentFunction:
         }
 
         response = json.dumps(response)
-
+        
         return response
 
     @classmethod

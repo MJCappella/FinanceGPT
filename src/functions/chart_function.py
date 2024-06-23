@@ -1,11 +1,8 @@
 import os
 import time
-
 from pandasai import PandasAI
 from pandasai.llm.openai import OpenAI
-
 import chainlit as cl
-
 
 class ChartFunction:
     @classmethod
@@ -29,7 +26,7 @@ class ChartFunction:
             path=created_chart_path, name=chart_name, display="inline"
         ).send()
 
-        response = f"Escreava para o usuário que o gráfico foi criado e mostre ele para o usuário escrevendo: '{chart_name}'."
+        response = f"Write to the user that the graph has been created and show it to the user by writing: '{chart_name}'."
 
         return response
 

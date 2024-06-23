@@ -1,8 +1,6 @@
 import os
 import requests
-
 from src.utils.alpha_vantage.enum import SLUG_ENUM
-
 
 class AlphaVantageBase:
     @classmethod

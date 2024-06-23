@@ -1,6 +1,5 @@
 from src.functions.enum import FunctionsEnum
 
-
 class Functions:
     @classmethod
     async def execute(self, function_name, **args):

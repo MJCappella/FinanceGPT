@@ -1,8 +1,6 @@
 import pandas as pd
-
 import chainlit as cl
 from tabulate import tabulate
-
 from src.utils.alpha_vantage.base import AlphaVantageBase
 
 intervals_enum = {
@@ -11,7 +9,7 @@ intervals_enum = {
     "15min": "Time Series (15min)",
     "30min": "Time Series (30min)",
     "60min": "Time Series (60min)",
-    # "daily": "Time Series (Daily)",
+    "daily": "Time Series (Daily)",
     "weekly": "Weekly Time Series",
     "monthly": "Monthly Time Series",
 }
