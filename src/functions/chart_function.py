@@ -1,6 +1,6 @@
 import os
 import time
-from pandasai import PandasAI
+from pandasai import pandas # Change PandasAI to Pandas
 from pandasai.llm.openai import OpenAI
 import chainlit as cl
 
@@ -10,7 +10,7 @@ class ChartFunction:
         llm = OpenAI(api_token=os.environ.get("OPENAI_API_KEY"))
 
         charts_path = os.getcwd()
-        pandas_ai = PandasAI(llm, save_charts=True, save_charts_path=charts_path)
+        pandas_ai = pandas(llm, save_charts=True, save_charts_path=charts_path) # Change PandasAI to Pandas
 
         dfs = []
         for df in dataframes:
