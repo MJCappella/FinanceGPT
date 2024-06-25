@@ -2,7 +2,7 @@ import os
 import chainlit as cl
 from tabulate import tabulate
 import pandas as pd
-from pandasai import PandasAI
+from pandasai import pandas # Change PandasAI to Pandas
 from pandasai.llm.openai import OpenAI
 
 
@@ -11,7 +11,7 @@ class TableQAFunction:
     async def run(self, tables=[], question="", new_table_name=""):
         llm = OpenAI(api_token=os.environ.get("OPENAI_API_KEY"))
 
-        pandas_ai = PandasAI(llm)
+        pandas_ai = pandas(llm) # Change PandasAI to Pandas
 
         dfs = []
         for df in tables:
