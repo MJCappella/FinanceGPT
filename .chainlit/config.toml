@@ -21,10 +21,10 @@ user_env = []
 
 [UI]
 # Name of the app and chatbot.
-name = "Chatbot"
+name = "FinanceGPT Chatbot"
 
 # Description of the app and chatbot. This is used for HTML tags.
-# description = ""
+# description = "Realtime financial analysis of Forex, Crypto and Stock Market data in your fingertips.👌😁"
 
 # The default value for the expand messages settings.
 default_expand_messages = false
