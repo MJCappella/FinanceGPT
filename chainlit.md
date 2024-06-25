@@ -1,14 +1,8 @@
-# Welcome to Chainlit! 🚀🤖
+# Welcome to FinanceGPT Chatbot
 
-Hi there, Developer! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
+Hi there,👋 We're excited to have you on board. FinanceGPT is a powerful tool designed to help you with financial analysis with matters related to forex, crypto and stock market data by utilizing PandasAI, Openai GPT-3.5 Turbo and other applications built on top of LLMs.
 
-## Useful Links 🔗
+## How to use it 🔗
+ Usage: Use the textbox in the screen to interact with the chatbot, ask questions related to financial markets and have your answers in seconds.
 
-- **Documentation:** Get started with our comprehensive [Chainlit Documentation](https://docs.chainlit.io) 📚
-- **Discord Community:** Join our friendly [Chainlit Discord](https://discord.gg/ZThrUxbAYw) to ask questions, share your projects, and connect with other developers! 💬
-
-We can't wait to see what you create with Chainlit! Happy coding! 💻😊
-
-## Welcome screen
-
-To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.
+ Smart Trading by:  😉[MJCappella](https://michaeljames.netlify.app)
