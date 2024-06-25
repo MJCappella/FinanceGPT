@@ -1,9 +1,7 @@
 import os
 import ast
-
 import openai
 import chainlit as cl
-
 from src.functions.index import Functions
 
 openai.api_key = os.environ.get("OPENAI_API_KEY")
