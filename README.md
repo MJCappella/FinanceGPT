@@ -4,7 +4,7 @@ The FinanceGPT is a chatbot application for financial analysis using real time d
 ## Quick Start
  Clone the repository and cd into the project's directory -- FinanceGPT
  ```
- git clone ---
+ git clone ---this project's URL---
  ``` 
 
  1. Create a python virtual environment.
